@@ -30,7 +30,7 @@
   color: white;
 }
 
-.bounce-top {
+.bounce-top:hover {
   animation: bounce-top 0.9s both;
 }
 
