@@ -1,2 +1,3 @@
-#git rm --cached week4/movieland/js/app.js
-week4/movieland/app.js
+week4/movieland/js/app.js
+git rm --cached week4/movieland/js/app.js
+
