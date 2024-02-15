@@ -188,7 +188,7 @@ body{
         // stroke: $LightYellow1-hex;
         // stroke-width: 0.35px;
       }
-      p {
+      p#para {
         position: relative;
         z-index: 2;
         clear: right;
@@ -196,6 +196,7 @@ body{
         width: 100%;
         color: $LightBlue3-hex;
         font-family: $LemonMilk;
+        line-height: 2em;
       }
       div.box {
         border: 10px solid $LightBlue1-hex;

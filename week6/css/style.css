@@ -151,7 +151,7 @@ body #container div.panel svg#light {
   opacity: 0;
   transform: translateY(-200px);
 }
-body #container div.panel p {
+body #container div.panel p#para {
   position: relative;
   z-index: 2;
   clear: right;
@@ -159,6 +159,7 @@ body #container div.panel p {
   width: 100%;
   color: #110066;
   font-family: lemon-milk;
+  line-height: 2em;
 }
 body #container div.panel div.box {
   border: 10px solid #90cbfb;
