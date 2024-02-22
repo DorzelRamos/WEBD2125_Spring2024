@@ -171,4 +171,50 @@ body #container div.panel div.box {
   opacity: 0;
   z-index: 1;
   transform: scale(0);
+}
+
+section#sticky {
+  height: 100vh;
+  padding: 3em;
+  position: relative;
+}
+section#sticky blockquote {
+  position: absolute;
+  width: 30%;
+  margin-top: 17%;
+  font-size: 2em;
+}
+section#sticky blockquote span {
+  width: 100%;
+  background: #3a1adb;
+  display: block;
+  height: 5px;
+  margin-top: 20px;
+}
+section#sticky img.artshow {
+  position: absolute;
+}
+section#sticky img#artshow1.artshow {
+  width: 648px;
+  height: auto;
+  right: 0;
+  top: 20%;
+}
+section#sticky img#artshow2.artshow {
+  width: 480px;
+  height: auto;
+  right: 40%;
+  top: 30%;
+  margin-top: 10%;
+}
+section#sticky .box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 5px solid #919191;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */
